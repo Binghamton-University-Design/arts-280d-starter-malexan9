@@ -1,0 +1,49 @@
+/*stylesheet*/
+
+/*
+tiers of cascading styles
+
+importance - 
+
+1 transition
+2 !important
+3 animation
+4 normal
+
+origin -
+wbesite itself
+user
+browser
+
+specificity
+inline > id > class > type
+
+position
+top to bottom
+
+*/
+
+body {
+	background-color: #d6d6d6;
+	color:  #333333;
+}
+
+h1#main-headline {
+	font-size: 48px;
+	color:  darkblue;
+	font-weight: 800;
+}
+
+h1.main-headline {
+	font-size: 48px;
+	color:  darkolivegreen;
+	font-weight: 800;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+}
+
+p {
+	color: darkblue;
+}
