@@ -1,0 +1,35 @@
+/*stylesheet*/
+
+body {
+	background-color: #000000;
+	color:  #2F2F2F;
+	font size:  16px;
+	font-family: 'Montserrat', sans-serif;
+
+	background: url('../images/industrial.jpg');
+	background-size: cover;
+	background-repeat:  no-repeat;
+}
+
+#wrapper {
+	margin:  2em auto;
+	max-width:  960px;
+	padding: 0 2em;
+}
+
+.article{
+	background-color: #ffffff;
+	padding:  20px 0 20px 0;
+}
+
+.article div {
+	background-color: rgba(0,0,0,0.1);
+}
+
+.box {
+	box-sizing:  content-box; /* border box */
+	width:  300px;
+	border:  solid black 3px;
+	padding:  10px;
+	margin:  20px;
+}
