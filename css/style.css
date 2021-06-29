@@ -94,7 +94,7 @@ h4 {
 	transition: text-decoration-color .4s cubic-bezier(.694, .0482, .335, 1);
 }
 
-#nav a:hover {
+#nav a: hover {
 	text-decoration-color: #000;
 }
 
