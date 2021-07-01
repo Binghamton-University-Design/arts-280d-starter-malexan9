@@ -10,7 +10,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-	font-size: 4.2 rem;
+	font-size: 4.2rem;
 }
 
 h2 {
@@ -187,8 +187,14 @@ transition: text-decoration-color .3s ease-in-out;
   height: 70vh;
 }
 
-#work h3 {
+#work h3, #writing h3, #portfolio h3 {
+  letter-spacing: 1px;
   margin-bottom: 2rem;
+}
+
+#work h3 a, #writings h3 a, #portfolio h3 a, #writings h4 a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .work-item {
@@ -235,6 +241,75 @@ transition: text-decoration-color .3s ease-in-out;
   width: 100%;
   height: 100%;
 }
+
+.writing-item .date-holder {
+  margin-bottom: .25em;
+}
+
+.writing-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.writing-item .caption {
+  font-size: .75rem;
+  color: #ffffff;
+  display: block;
+  width: 100%;
+  margin-top: .5rem;
+  margin-bottom: 2rem;
+  text-align: right;
+}
+
+.writing-item .date {
+  margin: 0;
+  font-size: .85rem;
+  padding: 0 4px;
+  color: #000000;
+  display: inline-block;
+  background-color: #ffffff;
+}
+
+.writing-item h2 a {
+  color: #ffffff;
+  text-decoration-color: transparent; 
+  transition: text-decoration-color .3s ease-in-out;
+}
+
+.writing-item h2 a:hover {
+  color: #ffffff;
+  text-decoration-color: #ffffff; 
+}
+
+.writing-item p a {
+  color: #ffffff;
+  text-decoration-color: #ffffff; 
+}
+
+#portfolio, #writings {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#portfolio .work-item {
+  padding-top: calc((9 / 16) * 100%);
+}
+
+#portfolio .work-item .inner .work-inside {
+  opacity: 1;
+}
+
+#portfolio p a {
+  color: var(--body-color);
+  text-decoration-color: var(--body-color); 
+  transition: text-decoration-color .3s ease-in-out;
+}
+
+#portfolio p a:hover {
+  text-decoration-color: transparent; 
+}
+
 
 #footer {
   text-align: left;
